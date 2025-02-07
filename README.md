@@ -5,8 +5,9 @@ If you want more free scripts and want to support my projects, buy me a coffee. 
 https://ko-fi.com/cxmmunityclub
 
 The gamertag script shows players certain information about the char and is only for qb core at the moment. If you want it for another framework I need someone who has an esx or qbx server.
-Command.
 
+
+Command
 - "gamertag" on and off
 
 Export
