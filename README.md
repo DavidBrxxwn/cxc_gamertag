@@ -11,19 +11,19 @@ Export
 - exports['cxc_gamertag']:DisplayGamerTag(false)
 
 Features
-- Debug -- Enables or disables debug mode
-- Ping -- Displays the player's ping
-- Job -- Displays the player's current job
-- Name -- Displays the player's name
-- Citizen ID -- Displays the player's Citizen ID
-- Server ID -- Displays the player's Server ID
-- Uppercase Text -- Converts text to uppercase
-- Mask -- Enables or disables mask display
-- Dead -- Displays the "DEAD" text when a player has 0 HP
-- Wanted Stars -- (Displays the "Wanted" icon if active)
-- Mic -- Displays the microphone icon if active
-- Export -- Enables or disables export functionality
-- Command -- Enables or disables the "gamertag" command
+- Debug -- (Enables or disables debug mode)
+- Ping -- (Displays the player's ping)
+- Job -- (Displays the player's current job)
+- Name -- (Displays the player's name)
+- Citizen ID -- (Displays the player's Citizen ID)
+- Server ID -- (Displays the player's Server ID)
+- Uppercase Text -- (Converts text to uppercase)
+- Mask -- (Enables or disables mask display)
+- Dead -- (Displays the "DEAD" text when a player has 0 HP)
+- Wanted Stars Icon -- (Displays the "Wanted" icon if active)
+- Mic Icon -- (Displays the microphone icon if active)
+- Export -- (Enables or disables export functionality)
+- Command -- (Enables or disables the "gamertag" command)
 
 Roadmap
 - Wanted stars export 
