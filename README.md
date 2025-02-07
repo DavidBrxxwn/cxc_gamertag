@@ -3,8 +3,6 @@
 
 The gamertag script shows players certain information about the char and is only for qb core at the moment. If you want it for another framework I need someone who has an esx or qbx server.
 
-This work is licensed under the Creative Commons BY-NC 4.0 license. This means you are free to use, share, and modify it as long as you give credit to the author (BY) and do not use it for commercial purposes (NC). Sharing under the same license is not required.
-
 Command
 - "gamertag" on and off
 
@@ -33,5 +31,7 @@ Roadmap
 
 If you want more free scripts and want to support my projects, buy me a coffee. Thank you.
 https://ko-fi.com/cxmmunityclub
+
+This work is licensed under the Creative Commons BY-NC 4.0 license. This means you are free to use, share, and modify it as long as you give credit to the author (BY) and do not use it for commercial purposes (NC). Sharing under the same license is not required.
 
 
