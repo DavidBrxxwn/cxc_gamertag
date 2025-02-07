@@ -3,7 +3,7 @@ lua54 'yes'
 game 'gta5'
 
 author 'David Brxxwn | Cxmmunity Club'
-description 'CXC.UCV_GAMERTAGSYSTEM | https://discord.com/invite/PjM3997JnW'
+description 'cxc_gamertag | https://discord.com/invite/PjM3997JnW'
 version '1.0.0'
 
 shared_scripts {
