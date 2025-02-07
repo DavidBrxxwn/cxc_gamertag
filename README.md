@@ -4,8 +4,6 @@
 If you want to support me, buy me a coffee.
 https://ko-fi.com/cxmmunityclub
 
-needs to be tested on a server with more players
-
 The gamertag script shows players certain information about the char and is only for qb core at the moment, if you want it for another framework i need someone who has an esx or qbx server.
 
 Command
@@ -22,16 +20,16 @@ Features
 - Name
 - CitizenId
 - ServerId
-- uppercaseText
-- mask 
-- isdead
-- wanted
-- mic
-- export
-- command
+- UppercaseText
+- Mask 
+- Dead
+- Wanted Stars
+- Mic
+- Export
+- Command
 
 Roadmap
-- wanted stars export 
-- more frameworks
+- Wanted stars export 
+- More frameworks
 
 
