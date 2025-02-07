@@ -32,7 +32,7 @@ Roadmap
 - Wanted stars export 
 - More frameworks
 
-If you want more free scripts and to support my work, buy me a coffee:
+If you like my work and want more, you can buy me a coffee!:
 ☕ https://ko-fi.com/cxmmunityclub – Thanks! 🙌
 
 This work is licensed under the Creative Commons BY-NC 4.0 license. This means you are free to use, share, and modify it as long as you give credit to the author (BY) and do not use it for commercial purposes (NC). Sharing under the same license is not required.
