@@ -1,6 +1,8 @@
 # cxc_gamertag
 
-The gamertag script shows players certain information about the char and is only for qb core at the moment. If you want it for another framework I need someone who has an esx or qbx server.
+he Gamertag Script displays certain character information and currently only works with QB Core. If you need it for another framework, I’ll need someone with an ESX or QBX server for testing.
+
+It uses the GTA V API Gamertag System [Docs](https://docs.fivem.net/docs/game-references/gamer-tags/) to display names above players' heads.
 
 [Image](https://cdn.discordapp.com/attachments/1336991511178379325/1336991511358738503/20250206093815_1.jpg?ex=67a5d1e0&is=67a48060&hm=a124da3e4753d9a0b10441ab60eaa6ba52a9719fcc52e540c7226c4a3a79f5bf&)
 
