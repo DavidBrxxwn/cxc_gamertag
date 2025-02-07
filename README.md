@@ -1,6 +1,7 @@
 # cxc_gamertag 
 - [Image](https://cdn.discordapp.com/attachments/1336991511178379325/1336991511358738503/20250206093815_1.jpg?ex=67a5d1e0&is=67a48060&hm=a124da3e4753d9a0b10441ab60eaa6ba52a9719fcc52e540c7226c4a3a79f5bf&)
-- [ko-fi.com/cxmmunityclub](https://ko-fi.com/cxmmunityclub)
+[ko-fi](https://ko-fi.com/cxmmunityclub)
+
 The gamertag script shows players certain information about the char and is only for qb core at the moment. If you want it for another framework I need someone who has an esx or qbx server.
 
 Command
