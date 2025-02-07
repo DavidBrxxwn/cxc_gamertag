@@ -5,13 +5,6 @@ It uses the GTA V API Gamertag System ([docs](https://docs.fivem.net/docs/game-r
 
 [Image](https://cdn.discordapp.com/attachments/1336991511178379325/1336991511358738503/20250206093815_1.jpg?ex=67a7cc20&is=67a67aa0&hm=b7a46c736a013a4f8fb3cfb4ad0888984983724b4c10aeda4892f62c96fc8535&)
 
-Command
-- "gamertag" on and off
-
-Export
-- exports['cxc_gamertag']:DisplayGamerTag(true)
-- exports['cxc_gamertag']:DisplayGamerTag(false)
-
 Features
 - Debug -- (Enables or disables debug mode)
 - Ping -- (Displays the player's ping)
@@ -27,14 +20,20 @@ Features
 - Export -- (Enables or disables export functionality)
 - Command -- (Enables or disables the "gamertag" command)
 
+Command
+- "gamertag" on and off
+
+Export
+- exports['cxc_gamertag']:DisplayGamerTag(true)
+- exports['cxc_gamertag']:DisplayGamerTag(false)
+
 Roadmap
 - Wanted stars export 
 - More frameworks
 
+Discord: https://discord.com/invite/PjM3997JnW
 
 If you like my work and want more, you can buy me a coffee:
 ☕ https://ko-fi.com/cxmmunityclub – Thanks! 🙌
-
-Discord: https://discord.com/invite/PjM3997JnW
 
 This work is licensed under the Creative Commons BY-NC 4.0 license. This means you are free to use, share, and modify it as long as you give credit to the author (BY) and do not use it for commercial purposes (NC). Sharing under the same license is not required.
