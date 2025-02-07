@@ -4,7 +4,7 @@ he Gamertag Script displays certain character information and currently only wor
 
 It uses the GTA V API Gamertag System [Docs](https://docs.fivem.net/docs/game-references/gamer-tags/) to display names above players' heads.
 
-[Image](https://cdn.discordapp.com/attachments/1336991511178379325/1336991511358738503/20250206093815_1.jpg?ex=67a5d1e0&is=67a48060&hm=a124da3e4753d9a0b10441ab60eaa6ba52a9719fcc52e540c7226c4a3a79f5bf&)
+[Image](https://cdn.discordapp.com/attachments/1336991511178379325/1336991511358738503/20250206093815_1.jpg?ex=67a7cc20&is=67a67aa0&hm=b7a46c736a013a4f8fb3cfb4ad0888984983724b4c10aeda4892f62c96fc8535&)
 
 Command
 - "gamertag" on and off
