@@ -1,7 +1,5 @@
 # cxc_gamertag
-
-The Gamertag script displays character information and currently only works with QB Core. If you need it for another framework, let me know or contact me on the community discord. 
-It uses the GTA V API Gamertag System ([docs](https://docs.fivem.net/docs/game-references/gamer-tags/)) to display player names above their heads.
+A FiveM script that displays interactive gamertags above players, showing customizable info like name, job, ID, ping, and status, with support for masks, voice chat, and wanted levels. 
 
 If you like my work and want more, you can buy me a coffee:
 ☕ https://ko-fi.com/cxmmunityclub – Thanks! 🙌
@@ -34,6 +32,8 @@ Roadmap
 - Wanted stars export 
 - More frameworks
 
+FiveM Docs: https://docs.fivem.net/natives/
+FiveM Natives: https://docs.fivem.net/docs/
 Discord: https://discord.com/invite/PjM3997JnW
 
 This work is licensed under the Creative Commons BY-NC 4.0 license. This means you are free to use, share, and modify it as long as you give credit to the author (BY) and do not use it for commercial purposes (NC). Sharing under the same license is not required.
