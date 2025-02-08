@@ -26,7 +26,7 @@ EXPORTS
 - exports['cxc_gamertag']:DisplayGamerTag(true)
 - exports['cxc_gamertag']:DisplayGamerTag(false)
 
-# 🚨IMPORTAN
+# 🚨Dependency 
 - qb-core: https://github.com/qbcore-framework/qb-core
 
 # 📈Roadmap
