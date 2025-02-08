@@ -49,7 +49,7 @@ Help keep the project alive! 🚀
 
 If you enjoy my work and want to see more, you can buy me a coffee: https://ko-fi.com/cxmmunityclub – Thanks for your support! 🙌
 
-# 📑License
+# 🛡️License
 Creative Commons BY-NC 4.0 license
 
 This work is licensed under the Creative Commons BY-NC 4.0 license. This means you are free to use, share, and modify it as long as you give credit to the author (BY) and do not use it for commercial purposes (NC). Sharing under the same license is not required.
