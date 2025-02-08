@@ -37,6 +37,7 @@ EXPORTS:
 - FiveM Docs: https://docs.fivem.net/natives/
 - FiveM Natives: https://docs.fivem.net/docs/
 - GTACars: https://gtacars.net/
+- Scenarios: https://wiki.rage.mp/wiki/Scenarios
 
 # 📱SOCIAL MEDIA
 - Discord: https://discord.com/invite/PjM3997JnW
