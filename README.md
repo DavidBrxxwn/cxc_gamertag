@@ -26,9 +26,8 @@ EXPORTS
 - exports['cxc_gamertag']:DisplayGamerTag(true)
 - exports['cxc_gamertag']:DisplayGamerTag(false)
 
-IMPORTAN
-- qb core
-
+# 🚨IMPORTAN
+- qb-core: https://github.com/qbcore-framework/qb-core
 
 # 📈Roadmap
 - Wanted stars export 
