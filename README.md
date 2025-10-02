@@ -28,24 +28,34 @@ EXPORTS:
 
 # 🚨DEPENDENCY 
 - qb-core: https://github.com/qbcore-framework/qb-core
+- ox_lib: https://github.com/overextended/ox_lib
+- ox_inventory: https://github.com/overextended/ox_inventory
 
-# 📈ROADMAP
-- Export wanted stars 
-- Framework qbx and ESX
+# 📚HELPFUL LINKS
+- GTAV Mods: https://www.gta5-mods.com/ (a database with addons such as vehicles, maps, graphics upgrades, and more)
+- GTACars: https://gtacars.net/ (a complete database with detailed information about all vehicles)
+- Plebmasters: https://forge.plebmasters.de/ (a database with detailed information on props, clothing, and more)
 
-# 🧠LINKS
-- FiveM Docs: https://docs.fivem.net/natives/
-- FiveM Natives: https://docs.fivem.net/docs/
-- GTACars: https://gtacars.net/
+# 🧠FIVEM DOCS
+- FiveM Docs: https://docs.fivem.net/docs/
+- FiveM Natives: https://docs.fivem.net/natives/
+- Controls: https://docs.fivem.net/docs/game-references/controls/
+- Blips: https://docs.fivem.net/docs/game-references/blips/
+- Checkpoints: https://docs.fivem.net/docs/game-references/checkpoints/
+- Markers: https://docs.fivem.net/docs/game-references/markers/
+- Ped Models: https://docs.fivem.net/docs/game-references/ped-models/
 - Scenarios: https://wiki.rage.mp/wiki/Scenarios
+- Vehicle Models: https://docs.fivem.net/docs/game-references/vehicle-references/vehicle-models/
+- Vehicle Colours: https://docs.fivem.net/docs/game-references/vehicle-references/vehicle-colours/
+- Vehicle Flags: https://docs.fivem.net/docs/game-references/vehicle-references/vehicle-flags/
 
 # 📱SOCIAL MEDIA
 - Discord: https://discord.com/invite/PjM3997JnW
-- YouTube: x
-- ZapHosting: X
 - Ko-fi: https://ko-fi.com/cxmmunityclub
+- GitHub: https://github.com/DavidBrxxwn
 
 # 🛡️LICENSE
 CREATIVE COMMONS BY-NC 4.0 LICENSE
 
 This work is licensed under the Creative Commons BY-NC 4.0 license. This means you are free to use, share, and modify it as long as you give credit to the author (BY) and do not use it for commercial purposes (NC). Sharing under the same license is not required.
+
