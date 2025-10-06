@@ -1,8 +1,6 @@
 # 📝DESCRIPTION
 A FiveM script that displays interactive gamertags above players, showing customizable info like name, job, ID, ping, and status, with support for masks, voice chat, and wanted levels. 
 
-Showcase: [Image](https://cdn.discordapp.com/attachments/1336991511178379325/1336991511358738503/20250206093815_1.jpg?ex=67a7cc20&is=67a67aa0&hm=b7a46c736a013a4f8fb3cfb4ad0888984983724b4c10aeda4892f62c96fc8535&)
-
 # ✨FEATURES
 CONFIG:
 - Debug -- (Enables or disables debug mode)
