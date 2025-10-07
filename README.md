@@ -21,8 +21,9 @@ COMMAND:
 - "gamertag" on and off
 
 EXPORTS:
-- exports['cxc_gamertag']:DisplayGamerTag(true)
-- exports['cxc_gamertag']:DisplayGamerTag(false)
+- exports['cxc_gamertag']:GamerTag(true/false)
+- exports['cxc_gamertag']:Dead(true/false)
+- exports['cxc_gamertag']:Mask(true/false)
 
 # 🚨DEPENDENCY 
 - qb-core: https://github.com/qbcore-framework/qb-core
