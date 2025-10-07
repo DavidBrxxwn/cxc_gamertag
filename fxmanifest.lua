@@ -1,25 +1,21 @@
 fx_version 'cerulean'
 game 'gta5'
-lua54 'yes'
 
 author 'David Brxxwn | Cxmmunity Club'
-description 'cxc_supporthub | https://discord.com/invite/EcpCFyX4DC'
-version '1.0.0'
+discord 'https://discord.com/invite/EcpCFyX4DC'
+
+name 'cxc_gamertag'
+description 'Multi-framework Gamertag System with API/DrawText3D support for QBCore, QBox & ESX'
+version '2.0.0'
 
 shared_scripts {
-	"@ox_lib/init.lua",
-	"shared/*.lua'
-}
-
-exports {
-    'DisplayGamerTag'
+	"shared/*.lua",
 }
 
 client_scripts {
-    'client/*.lua'
+	'client/*.lua'
 }
 
 server_scripts {
-    'server/*.lua'
+	'server/*.lua'
 }
-
