@@ -1,3 +1,6 @@
+-- Author: David Brxxwn | Cxmmunity Club
+-- Discord: https://discord.com/invite/EcpCFyX4DC
+
 Config = {}
 
 Config.Debug = true -- Enables or disables debug mode. If true, debug messages are shown.
@@ -88,3 +91,4 @@ Config.JobLabels = {
         visible_to = {"all"}
     },
 }
+
