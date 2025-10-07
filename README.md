@@ -26,7 +26,9 @@ EXPORTS:
 - exports['cxc_gamertag']:Mask(true/false)
 
 # 🚨DEPENDENCY 
-- qb-core: https://github.com/qbcore-framework/qb-core
+- qb-core (QB-Core): https://github.com/qbcore-framework/qb-core
+- es_extended (ESX-Core): https://github.com/esx-framework/esx_core
+- qbx_core (Qbox) https://github.com/Qbox-project/qbx_core
 
 # 📚HELPFUL LINKS
 - GTAV Mods: https://www.gta5-mods.com/
