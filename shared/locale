@@ -1,0 +1,128 @@
+-- English translations
+local en = {
+    -- Gamertag System
+    ['unknown'] = 'UNKNOWN',
+    ['dead'] = 'DEAD',
+    ['mask_text'] = 'UNKNOWN',
+    ['dead_text'] = 'DEAD',
+    ['hud_enabled'] = 'HUD enabled',
+    ['hud_disabled'] = 'HUD disabled',
+    ['no_job'] = 'No Job',
+    ['ping'] = '%d ms',
+    ['ping_format'] = 'ping: %d',
+    
+    -- Debug Messages
+    ['error_invalid_data'] = 'Error: Invalid data received',
+    ['player_data_not_available'] = 'Player data not available yet, retrying...',
+    ['framework_loaded'] = 'Framework %s loaded successfully',
+    ['framework_error'] = 'Error loading framework: %s',
+    
+    -- General Terms
+    ['loading'] = 'Loading...',
+    ['error'] = 'Error',
+    ['success'] = 'Success',
+    ['warning'] = 'Warning',
+    ['info'] = 'Information'
+}
+
+-- German translations
+local de = {
+    -- Gamertag System
+    ['unknown'] = 'UNBEKANNT',
+    ['dead'] = 'TOT',
+    ['mask_text'] = 'UNBEKANNT',
+    ['dead_text'] = 'TOT',
+    ['hud_enabled'] = 'HUD aktiviert',
+    ['hud_disabled'] = 'HUD deaktiviert',
+    ['no_job'] = 'Kein Job',
+    ['ping'] = '%d ms',
+    ['ping_format'] = 'Ping: %d',
+    
+    -- Debug Messages
+    ['error_invalid_data'] = 'Fehler: Ungültige Daten erhalten',
+    ['player_data_not_available'] = 'Spielerdaten noch nicht verfügbar, versuche erneut...',
+    ['framework_loaded'] = 'Framework %s erfolgreich geladen',
+    ['framework_error'] = 'Fehler beim Laden des Frameworks: %s',
+    
+    -- General Terms
+    ['loading'] = 'Lädt...',
+    ['error'] = 'Fehler',
+    ['success'] = 'Erfolg',
+    ['warning'] = 'Warnung',
+    ['info'] = 'Information'
+}
+
+-- French translations
+local fr = {
+    -- Gamertag System
+    ['unknown'] = 'INCONNU',
+    ['dead'] = 'MORT',
+    ['mask_text'] = 'INCONNU',
+    ['dead_text'] = 'MORT',
+    ['hud_enabled'] = 'HUD activé',
+    ['hud_disabled'] = 'HUD désactivé',
+    ['no_job'] = 'Sans Emploi',
+    ['ping'] = '%d ms',
+    ['ping_format'] = 'Ping: %d',
+    
+    -- Debug Messages
+    ['error_invalid_data'] = 'Erreur: Données invalides reçues',
+    ['player_data_not_available'] = 'Données du joueur pas encore disponibles, nouvelle tentative...',
+    ['framework_loaded'] = 'Framework %s chargé avec succès',
+    ['framework_error'] = 'Erreur lors du chargement du framework: %s',
+    
+    -- General Terms
+    ['loading'] = 'Chargement...',
+    ['error'] = 'Erreur',
+    ['success'] = 'Succès',
+    ['warning'] = 'Avertissement',
+    ['info'] = 'Information'
+}
+
+-- Spanish translations
+local es = {
+    -- Gamertag System
+    ['unknown'] = 'DESCONOCIDO',
+    ['dead'] = 'MUERTO',
+    ['mask_text'] = 'DESCONOCIDO',
+    ['dead_text'] = 'MUERTO',
+    ['hud_enabled'] = 'HUD habilitado',
+    ['hud_disabled'] = 'HUD deshabilitado',
+    ['no_job'] = 'Sin Trabajo',
+    ['ping'] = '%d ms',
+    ['ping_format'] = 'Ping: %d',
+    
+    -- Debug Messages
+    ['error_invalid_data'] = 'Error: Datos inválidos recibidos',
+    ['player_data_not_available'] = 'Datos del jugador aún no disponibles, reintentando...',
+    ['framework_loaded'] = 'Framework %s cargado exitosamente',
+    ['framework_error'] = 'Error cargando framework: %s',
+    
+    -- General Terms
+    ['loading'] = 'Cargando...',
+    ['error'] = 'Error',
+    ['success'] = 'Éxito',
+    ['warning'] = 'Advertencia',
+    ['info'] = 'Información'
+}
+
+function _(key, ...)
+    local locale = Config.Locale or 'en'
+    local translations = en -- Default to English
+    
+    if locale == 'de' then
+        translations = de
+    elseif locale == 'fr' then
+        translations = fr
+    elseif locale == 'es' then
+        translations = es
+    end
+    
+    local phrase = translations[key] or key
+    
+    if ... then
+        return string.format(phrase, ...)
+    end
+    
+    return phrase
+end
