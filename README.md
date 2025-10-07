@@ -2,20 +2,42 @@
 A FiveM script that displays interactive gamertags above players, showing customizable info like name, job, ID, ping, and status, with support for masks, voice chat, and wanted levels. 
 
 # ✨FEATURES
-CONFIG:
-- Debug -- (Enables or disables debug mode)
-- Ping -- (Displays the player's ping)
-- Job -- (Displays the player's current job)
-- Name -- (Displays the player's name)
-- Citizen ID -- (Displays the player's Citizen ID)
-- Server ID -- (Displays the player's Server ID)
-- Uppercase Text -- (Converts text to uppercase)
-- Mask -- (Enables or disables mask display)
-- Dead -- (Displays the "DEAD" text when a player has 0 HP)
-- Wanted Stars Icon -- (Displays the "Wanted" icon if active)
-- Mic Icon -- (Displays the microphone icon if active)
-- Export -- (Enables or disables export functionality)
-- Command -- (Enables or disables the "gamertag" command)
+- Debug — Enables or disables debug mode. If true, debug messages are shown.
+- Locale — Language setting: 'en' English, 'de' German, 'fr' French, 'es' Spanish.
+- Framework — Framework selection: 'qb' for QBCore, 'qbox' for QBox Framework, or 'esx' for ESX.
+- System — Rendering system: 'api' for Rockstar Gamer Tag System or 'draw' for custom DrawText3D.
+- KeyToggle — Enable or disable the key to toggle Gamertag (changeable in FiveM Settings > Key Bindings).
+- UpdateInterval — How often to update gamertag data in milliseconds (e.g., 5000 = 5 seconds).
+- IconUpdateInterval — How often to update icons (mic, wanted stars) in milliseconds (e.g., 500 = 0.5 seconds).
+- Visible — If true, everyone can see my name including myself; if false, only others can see my name but not me.
+- Distance — Maximum distance in units to show gamertags.
+- Ping — Enable or disable ping display in gamertags.
+- Job — Enable or disable job display in gamertags.
+- Name — Enable or disable player name display in gamertags.
+- CitizenId — Enable or disable Citizen ID display in gamertags.
+- ServerId — Enable or disable Server ID display in gamertags.
+- Caps — Convert all text to uppercase/capitals.
+- Mask — Enable or disable mask display.
+- MaskComponents — Multiple component IDs for mask detection (customizable).
+- Dead — Show 'DEAD' text when player has 0 HP.
+- PingFormat — Ping display format: "ms" shows "123ms", "ping" shows "Ping: 123", false shows "123".
+- VisibleIcons — Icon visibility setting: true = everyone sees icons including myself, false = only I see my own icons.
+- WantedStarsIcons — Enable wanted star icons: true = others see my wanted stars (I don't), false = no wanted star icons.
+- VisibleWantedStarsIcons — Wanted star visibility: true = everyone sees them including me, false = only I see my own.
+- MicIcons — Enable microphone icons: true = others see my mic status (I don't), false = no mic icons.
+- VisibleMicIcons — Microphone visibility: true = everyone sees mic status including me, false = only I see my own.
+- DrawText3D — Settings for custom DrawText3D system (scale, font, color, shadow, outline, alignment, etc.).
+- ExportGamerTag — Enable export functions for external resource control.
+- ExportGamerTagName — Export function name (usage: exports['cxc_gamertag']:GamerTag(true/false)).
+- ExportDead — Enable or disable dead export functionality.
+- ExportDeadName — Name of the export function for dead control (usage: exports['cxc_gamertag']:Dead(true/false)).
+- ExportMask — Enable or disable mask export functionality.
+- ExportMaskName — Name of the export function for mask control (usage: exports['cxc_gamertag']:Mask(true/false)).
+- Command — Enable in-game chat command to toggle gamertags.
+- CommandOverrideExport — Command takes priority over export functions when both are enabled.
+- CommandName — Chat command name (players type /gamertag to toggle).
+- JobLabelSystem — Enable or disable job labels system.
+- JobLabels — Customizable job labels with visibility by job or for everyone.
 
 COMMAND:
 - "gamertag" on and off
